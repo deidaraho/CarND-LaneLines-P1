@@ -23,15 +23,9 @@ Finally, we merge the selected lane lines with original image to test the perfor
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by a brute force method. It computes all selected lines' slopes, filters and clasifies them into left and right lane lines. 
 
-<<<<<<< HEAD
 The output images are in: [./test_images_output/]
 
 The output videos are in: [./test_video_output/]
-=======
-The output images are in: [/test_images_output/]
-
-The output videos are in: [/test_video_output/]
->>>>>>> 16809aa4416ba9e29eb841f4579b9cd37ffd4753
 
 
 ### 2. Identify potential shortcomings with your current pipeline
